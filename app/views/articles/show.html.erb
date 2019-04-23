@@ -1,0 +1,14 @@
+<h1>Article ID : <%=@article.id%></h1>
+ 
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Text</th>
+  </tr>
+ 
+    <tr>
+      <td><%= @article.title %></td>
+      <td><%= @article.text %></td>
+    </tr>
+</table>
+<%= link_to 'Back', articles_path %>
